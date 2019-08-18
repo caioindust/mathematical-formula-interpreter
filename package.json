@@ -1,0 +1,17 @@
+{
+  "name": "jsmodularizacao",
+  "version": "1.0.0",
+  "description": "Javascript mathematical formula interpreter using Reverse Polish Notation ",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "mocha",
+    "postinstall": "npm test"
+  },
+  "author": "Caio Humberto Francisco",
+  "license": "GPL-3.0"
+}
